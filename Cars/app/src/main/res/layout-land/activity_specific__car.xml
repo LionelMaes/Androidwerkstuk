@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/specificBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imgSpecificCar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/the_you_clicked_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnLikeSpecific"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="InefficientWeight"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtCarNameSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/carpicture"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtMerkSpecific"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSpecificCar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMerkSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/carpicture"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtCarBuildYearSpecific"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSpecificCar"
+        app:layout_constraintTop_toBottomOf="@+id/txtCarNameSpecific" />
+
+    <TextView
+        android:id="@+id/txtCarBuildYearSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/carpicture"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtCarDescriptionSpecific"
+        app:layout_constraintEnd_toEndOf="@+id/txtMerkSpecific"
+        app:layout_constraintStart_toStartOf="@+id/txtMerkSpecific"
+        app:layout_constraintTop_toBottomOf="@+id/txtMerkSpecific" />
+
+    <TextView
+        android:id="@+id/txtCarDescriptionSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/carpicture"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLikeSpecific"
+        app:layout_constraintEnd_toEndOf="@+id/txtCarBuildYearSpecific"
+        app:layout_constraintStart_toStartOf="@+id/txtCarBuildYearSpecific"
+        app:layout_constraintTop_toBottomOf="@+id/txtCarBuildYearSpecific" />
+
+    <Button
+        android:id="@+id/btnLikeSpecific"
+        android:layout_width="560dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/like_this_car"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCarDescriptionSpecific" />
+</android.support.constraint.ConstraintLayout>

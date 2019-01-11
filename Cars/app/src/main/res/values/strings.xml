@@ -1,0 +1,19 @@
+<resources>
+    <string name="h1Login">Login to the app</string>
+    <string name="forEmail">Email:</string>
+    <string name="placeHolderEmail">Email</string>
+    <string name="forPassword">Password:</string>
+    <string name="placeholderPassword">Password</string>
+    <string name="forgotPassword"><u>Forgot password? Click here! </u></string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name:</string>
+    <string name="Phone">Phone number:</string>
+    <string name="forRepeatPassword">Repeat Password</string>
+    <string name="agreedWithPrivacy">agree to our Terms and Privacy Policy</string>
+    <string name="carpicture">carPicture</string>
+    <string name="the_you_clicked_on">The you clicked on</string>
+    <string name="like_this_car">Like this car</string>
+    <string name="app_name">Cars</string>
+    <string name="search">Search car</string>
+</resources>

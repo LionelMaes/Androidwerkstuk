@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voiture</string>
+    <string name="agreedWithPrivacy">Accepter les condition et terme de confidentialité</string>
+    <string name="carpicture">fotovoiture</string>
+    <string name="placeHolderEmail">Email</string>
+    <string name="forEmail">Email:</string>
+    <string name="like_this_car">Ajouter voiture au favoris</string>
+    <string name="login">Connexion</string>
+    <string name="h1Login">Connecté vous a L\'application</string>
+    <string name="name">Nom:</string>
+    <string name="placeholderPassword">Mot de passe</string>
+    <string name="forPassword">Mot de passe:</string>
+    <string name="Phone">Numero de telephone</string>
+    <string name="register">Faire un compte</string>
+    <string name="forRepeatPassword">REpeter le mot de passe</string>
+    <string name="search">Rechercher une voiture</string>
+    <string name="the_you_clicked_on">Vous avez Cliquer</string>
+</resources>

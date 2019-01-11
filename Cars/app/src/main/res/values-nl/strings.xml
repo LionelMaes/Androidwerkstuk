@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto\'s</string>
+    <string name="h1Login">Log u in de app</string>
+    <string name="forEmail">Email:</string>
+    <string name="placeHolderEmail">Email</string>
+    <string name="forPassword">Wachtwoord:</string>
+    <string name="placeholderPassword">Wachtwoord</string>
+    <string name="login">Login</string>
+    <string name="register">Registreren</string>
+    <string name="name">Naam:</string>
+    <string name="Phone">Telefoon nummer</string>
+    <string name="forRepeatPassword">Herhaal wachtwoord</string>
+    <string name="agreedWithPrivacy">Akkoord gaan met de algemene voorwaarden en onze privicybeleid</string>
+    <string name="carpicture">fotoAuto</string>
+    <string name="like_this_car">Auto in favorieten opslaan</string>
+    <string name="search">Zoek auto</string>
+    <string name="the_you_clicked_on">u heeft er op geklikked</string>
+</resources>
