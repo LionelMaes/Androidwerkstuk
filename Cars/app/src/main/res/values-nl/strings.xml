@@ -16,4 +16,5 @@
     <string name="like_this_car">Auto in favorieten opslaan</string>
     <string name="search">Zoek auto</string>
     <string name="the_you_clicked_on">u heeft er op geklikked</string>
+    <string name="forgotPassword"><u>Passwoord vergeten? klik hier!</u></string>
 </resources>

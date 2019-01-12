@@ -13,7 +13,8 @@
     <string name="forPassword">Mot de passe:</string>
     <string name="Phone">Numero de telephone</string>
     <string name="register">Faire un compte</string>
-    <string name="forRepeatPassword">REpeter le mot de passe</string>
+    <string name="forRepeatPassword">Repeter le mot de passe</string>
     <string name="search">Rechercher une voiture</string>
     <string name="the_you_clicked_on">Vous avez Cliquer</string>
+    <string name="forgotPassword"><u>Mot de passe oublier? Cliquer ici?</u></string>
 </resources>
