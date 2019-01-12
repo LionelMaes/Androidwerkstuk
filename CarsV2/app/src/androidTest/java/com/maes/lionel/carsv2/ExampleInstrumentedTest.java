@@ -1,4 +1,4 @@
-package com.maes.lionel.cars_v2;
+package com.maes.lionel.carsv2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.maes.lionel.cars_v2", appContext.getPackageName());
+        assertEquals("com.maes.lionel.carsv2", appContext.getPackageName());
     }
 }

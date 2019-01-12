@@ -1,4 +1,4 @@
-package com.maes.lionel.cars_v2;
+package com.maes.lionel.carsv2;
 
 import org.junit.Test;
 

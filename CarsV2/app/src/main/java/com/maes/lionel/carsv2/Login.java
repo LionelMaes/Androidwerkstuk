@@ -1,4 +1,4 @@
-package com.maes.lionel.cars_v2;
+package com.maes.lionel.carsv2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
