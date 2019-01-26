@@ -175,7 +175,7 @@
                 android:layout_gravity="center"
                 android:hint="@string/register"
                 android:textColor="@color/black"
-                android:background="@drawable/custombutton"
+                android:background="@drawable/state"
                 />
 
         </LinearLayout>
